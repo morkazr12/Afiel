@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Latihan Form</title>
+    </head>
+    <body>
+	<form>
+        <center><h1>FORM PENDAFTARAN MAHASISWA STMIK KAPUTAMA</h1></center>
+        <table border='0' width='60%' cellpadding='2'  cellspacing='2' align='center' bgcolor=white><tr><br></tr>
+            <tr><td colspan="2" bgcolor=Gainsboro><center><b>FORMULIR PENDAFTARAN</b></center></td></tr>
+            <tr><td><b>Nama Lengkap</b></td><td><input type="text" name="nama" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Tempat Tanggal Lahir</b></td>
+                <td>
+                    <input type="text" name="tempat" size="20">
+				<input type="date" />
+                </td>
+            </tr>
+            <tr>
+                <td><b>Jenis Kelamin</b></td><td><input type="radio" name="jenis_kelamin" value="pria"/><label for="jenis_kelamin">Pria</label>
+                <input type="radio" name="jenis_kelamin" value="wanita"/><label for="jenis_kelamin">Wanita</label></td>
+            </tr>
+            <tr>
+                <td><b>Status Menikah</b></td><td><input type="radio" name="status_menikah" value="Menikah"/><label for="status_menikah">Menikah</label>
+                <input type="radio" name="status_menikah" value="Belum Menikah"/><label for="status_menikah">Belum Menikah</label></td>
+            </tr>
+            <tr>
+                <td><b>Agama</b></td>
+                <td>
+                    <select name="agama">
+						<option>-- Pilih Agama --</option>
+						<option>Islam</option>
+						<option>Katolik</option>
+						<option>Protestan</option>
+						<option>Hindu</option>
+						<option>Budha</option>
+                    </select>
+                </td>
+            <tr>
+            <tr><td><b>Alamat</b></td><td><textarea name="alamat" cols="30" rows="3"></textarea></td></tr>
+            <tr><td><b>No Telepon</b></td><td><input type="text" name="telepon_siswa" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>No Hp</b></td><td><input type="text" name="hp_siswa" size="40" maxlength="50"/></td></tr>
+
+            <tr><td><b>Asal Sekolah<b/></td><td><input type="text" name="asal sekolah" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Jurusan Sekolah<b/></td><td><input type="text" name="jurusan sekolah" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Alamat Sekolah</b></td><td><textarea name="alamat_sekolah" cols="30" rows="3"></textarea></td></tr>
+
+            <tr><td colspan="2" bgcolor=Gainsboro><center><b>PILIH PROGRAM STUDI</b></center></td></tr>
+            <tr>
+                <td>
+                    <b>Program Studi 1</b></td><td>
+                    <select name="prodi1">
+                        <option>--Pilih Program Studi--</option>
+						<option value="TIS">Teknik Informatika (S1)</option>
+                        <option value="SIS">Sistem Informasi (S1)</option>
+                        <option value="TID">Teknik Informatika (D3)</option>
+                        <option value="MID">Manajemen Informatika (D3)</option>
+                        <option value="KAD">Komputerisasi Akuntansi (D3)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Waktu Belajar</b></td><td><input type="radio" name="waktu_belajar" value="pagi"/><label for="waktu_belajar">Pagi</label>
+                <input type="radio" name="waktu_belajar" value="sore"/><label for="waktu_belajar">Sore</label></td>
+            </tr>
+
+            <tr><td colspan="2" bgcolor=Gainsboro><center><b>INFORMASI ORANG TUA/WALI</b></center></td></tr>
+            <tr><td><b>Ayah</b></td><td><input type="text" name="ayah" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Pekerjaan</b></td><td><input type="text" name="pekerjaan_ayah" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Ibu</b></td><td><input type="text" name="ayah" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Pekerjaan</b></td><td><input type="text" name="pekerjaan_ibu" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Alamat Orang Tua</b></td><td><textarea name="alamat_ortu" cols="30" rows="3"></textarea></td></tr>
+            <tr><td><b>No Telepon</b></td><td><input type="text" name="telepon_ortu" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>No Hp</b></td><td><input type="text" name="hp_ortu" size="40" maxlength="50"/></td></tr>
+
+            <br>
+            <tr><td><b>Nama Wali</b></td><td><input type="text" name="wali" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>Alamat Wali</b></td><td><textarea name="alamat_wali" cols="30" rows="3"></textarea></td></tr>
+            <tr><td><b>No Telepon</b></td><td><input type="text" name="telepon_wali" size="40" maxlength="50"/></td></tr>
+            <tr><td><b>No Hp</b></td><td><input type="text" name="hp_wali" size="40" maxlength="50"/></td></tr>
+
+            <tr>
+                <td>
+                    <b>Sumber Informasi Mengenai STMIK Kaputama</b></td><td>
+                    <select name="informasi">
+                        <option>--Pilih--</option>
+                        <option value="brosur_spanduk_poster">Brosur/Spanduk/Poster</option>
+                        <option value="media_masa">Media Masa (Koran/Radio)</option>
+                        <option value="teman_saudara">Teman/Saudara</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td><b>Lain-Lain</b></td><td><input type="text" name="informasi" size="40" maxlength="50"/></td></tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Proses">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+        </table>
+	</form>
+    </body>
+</html>

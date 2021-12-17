@@ -1,0 +1,239 @@
+<html>
+	<head>
+		<title>Latihan Table</title>
+	</head>
+<body>
+<form>
+<h1>Formulir Pendaftaran Mahasiswa Baru Online</h1>
+	<table border="0">
+		
+		<tr>
+			<td bgcolor="#999999" colspan="2">Data Diri</td>
+		</tr>
+		
+		<tr>
+			<td >Nama Lengkap</td>
+			<td> 
+				<input type="text" name="nama" size="50">
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Tempat/Tgl Lahir</td>
+			<td>
+				<input type="text" name="tempat" size="20">
+				<input type="date" />
+			</td>
+		</tr>
+		
+        <tr>
+			<td>Jenis Kelamin</td>
+			<td>
+				<input type="radio" name="jk" value="laki-laki" /> 
+				Laki - Laki
+				<input type="radio" name="jk" value="perempuan" /> 
+				Perempuan
+			</td>	
+		</tr>
+		
+		<tr>
+			<td>Agama</td>
+			<td>
+				<select>
+					<option>-- Pilih Agama --</option>
+					<option>Islam</option>
+					<option>Katolik</option>
+					<option>Protestan</option>
+					<option>Hindu</option>
+					<option>Budha</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Alamat</td>
+			<td>
+			<input type="text" name="alamat" size="100">
+			</td>
+		</tr>
+		
+        <tr>
+			<td>Status</td>
+			<td>
+				<input type="radio" name="status" value="menikah" /> 
+				Menikah
+				<input type="radio" name="status" value="belum_menikah" /> 
+				Belum Menikah
+			</td>
+		</tr>
+		
+		<tr>
+			<td >No. Telp</td>
+			<td>
+				<input type="text" name="no_telp" size="15" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>No. HP</td>
+			<td>
+				<input type="text" name="no_hp" size="15" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>E-mail</td>
+			<td >
+				<input type="text" name="email" size="30" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Asal Sekolah</td>
+			<td>
+				<input type="text" name="asal_sekolah" size="40" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Tahun Lulus</td>
+			<td >
+				<input type="text" name="tahun_lulus" size="5" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Nomor Ijazah</td>
+			<td >
+				<input type="text" name="tahun_lulus" size="30" />
+			</td>
+		</tr>
+		
+        <tr>
+			<td>Alamat Sekolah</td>
+			<td >
+			<input type="text" name="alamat_sekolah" size="100">
+			</td>
+		</tr>  
+		
+        <tr>
+			<td>Jurusan</td>
+			<td >
+			<input type="text" name="jurusan" size="20">
+			</td>
+		</tr>  
+		
+		<tr>
+			<td rowspan="2">Program Studi</td>
+			<td >Pilihan 1 
+				<select>
+					<option value="">-- Pilih Program Studi --</option>
+					<option value="45">Teknik Informatika (S1)</option>
+					<option value="44">Sistem Informasi (S1)</option>
+					<option value="32">Manajemen (S1)</option>
+                    <option value="31">Akuntansi (S1)</option>
+					<option value="31">Sastra Indonesia (S1)</option>
+					<option value="31">Sastra Inggris (S1)</option>
+				</select>
+			</td>
+        </tr>
+			
+		<tr>
+			<td>Pilihan 2 
+				<select>
+					<option value="">-- Pilih Program Studi --</option>
+					<option value="45">Teknik Informatika (S1)</option>
+					<option value="44">Sistem Informasi (S1)</option>
+					<option value="32">Manajemen (S1)</option>
+                    <option value="31">Akuntansi (S1)</option>
+					<option value="31">Sastra Indonesia (S1)</option>
+					<option value="31">Sastra Inggris (S1)</option>
+				</select>
+			 </td>
+            </tr>
+			
+        <tr>
+			<td>Reguler</td>
+			<td >
+				<input type="radio" name="reguler" value="a" /> 
+				A
+				<input type="radio" name="reguler" value="b" /> 
+				B
+				<input type="radio" name="reguler" value="c" /> 
+				C
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Status Mahasiswa</td>
+			<td >
+				<input type="radio" name="status_mahasiswa" value="baru" /> 
+				Baru
+				<input type="radio" name="status_mahasiswa" value="pindahan" /> 
+				Pindahan
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor="#999999" colspan="2">Orang Tua</td>
+		</tr>
+		
+		<tr>
+			<td>Ayah</td>
+			<td >
+			<input type="text" name="ayah" size="50">
+		</tr> 
+		
+		<tr>
+			<td>Pekerjaan</td>
+			<td >
+			<input type="text" name="pekerjaan_ayah" size="20">
+		</tr>   
+		
+        <tr>
+			<td>Ibu</td>
+			<td >
+			<input type="text" name="ibu" size="50">
+		</tr> 
+		
+        <tr>
+			<td>Pekerjaan</td>
+			<td >
+			<input type="text" name="pekerjaan_ibu" size="20">
+		</tr>
+		
+        <tr>
+			<td >Alamat</td>
+			<td >
+			<input type="text" name="alamat_ortu" size="100">
+		</tr> 
+		
+        <tr>
+			<td >No. Telp</td>
+			<td >
+				<input type="text" name="no_telp_ortu" size="15" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>No. HP</td>
+			<td >
+				<input type="text" name="no_hp_ortu" size="15" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr color="#999999" size="3"/>
+			</td>
+		</tr>
+
+		<tr>
+			<td >
+				<input type="submit" value="Lanjut" />
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
